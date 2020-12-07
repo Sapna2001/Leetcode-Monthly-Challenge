@@ -1,4 +1,4 @@
-/*
+/* medium
 Given a binary tree
 
 struct Node {
