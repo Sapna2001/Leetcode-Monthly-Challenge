@@ -13,9 +13,11 @@ class Solution {
         for(int i : nums)
             arraySum += i;
         int target = arraySum - x;
+        if(target==0)
+            return nums.length;
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0,-1);
-        int maxLengthSubArray = -1;
+        int maxLengthSubArray = 0;
         int prefixSum = 0;
         for(int i = 0 ; i< nums.length ; i++ ) {
             prefixSum += nums[i];
@@ -25,8 +27,9 @@ class Solution {
                 maxLengthSubArray = Math.max(maxLengthSubArray,currentLengthSubArray);
             }
         }
-        return (maxLengthSubArray==-1) ? -1 :nums.length- maxLengthSubArray;
+        return (maxLengthSubArray==0) ? -1 :nums.length- maxLengthSubArray;
     }
 }
 
+    
         
