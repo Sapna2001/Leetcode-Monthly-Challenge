@@ -28,3 +28,5 @@ class Solution {
         return head1.next;
     }
 }
+
+// TC: O(n)
