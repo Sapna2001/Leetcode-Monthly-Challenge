@@ -57,3 +57,6 @@ class Solution {
         return possibleRepresentationsOfS;
     }
 }
+
+// TC : O(n3)
+// SC : O(1)
