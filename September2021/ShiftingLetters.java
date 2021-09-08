@@ -9,6 +9,9 @@ Now for each shifts[i] = x, we want to shift the first i + 1 letters of s, x tim
 Return the final string after all such shifts to s are applied.
 
 Link: https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/637/week-2-september-8th-september-14th/3968/
+
+TC: O(n)
+SC: O(n)
 */
 
 class Solution {
@@ -24,10 +27,5 @@ class Solution {
         return new String(str);
     }
 }
-
-/*
-TC: O(n)
-SC: O(n)
-*/
 
 
