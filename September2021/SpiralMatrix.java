@@ -2,6 +2,9 @@
 Given an m x n matrix, return all elements of the matrix in spiral order.
 
 Link: https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3977/
+
+TC: O(mn)
+SC: O(1)
 */
 
 class Solution {
@@ -48,8 +51,3 @@ class Solution {
         return result;
     }
 }
-
-/*
-TC: O(mn)
-SC: O(1)
-*/
