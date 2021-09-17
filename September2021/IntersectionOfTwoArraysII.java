@@ -3,8 +3,8 @@ Given two integer arrays nums1 and nums2, return an array of their intersection.
 return the result in any order.
 
 Link: https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3978/
-TC: O(n)
-SC: O(n)
+TC: O(nlogn+mlogm)
+SC: O(min(n,m))
 */
 
 class Solution {
