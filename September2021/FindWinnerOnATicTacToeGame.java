@@ -1,6 +1,7 @@
 /*
 Link: https://leetcode.com/explore/challenge/card/september-leetcoding-challenge-2021/638/week-3-september-15th-september-21st/3981/
 */
+
 class Solution {
     public static String checkBoard(char[][] board){
 
