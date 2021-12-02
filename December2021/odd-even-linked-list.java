@@ -23,9 +23,9 @@ class Solution {
             odd = odd.next;
             even.next = odd.next;
             even = even.next;            
-            odd.next = evenHead;
         }
         
+        odd.next = evenHead;
         return head;
     }
 }
