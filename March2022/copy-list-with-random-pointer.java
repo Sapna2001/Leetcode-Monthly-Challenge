@@ -15,6 +15,10 @@ Space Complexity: O(1)
 
 class Solution {
     public Node copyRandomList(Node head) {
+        if(head == null) {
+            return head;
+        }
+        
         Node current = head;
         
         // Insert new nodes in the middle
